@@ -52,17 +52,16 @@ Div styling
 ***************************/
 
 .main-page {
-	background-color: lightgray;
+	background-color: white;
 	width: 800px;
 	height: 800px;
 	padding: 45px;
 }
 
 .outline {
-
-  border-style: 2px ridge;
-  background-color: aqua;
-  width: 600px;
+  border: solid 2px #CECFD5;
+  background-color: white;
+  width: 525px;
   height: 600px;
   border-radius: 15px;
   position: relative;
@@ -88,12 +87,20 @@ Div styling
 }
 
 .circle-object {
-	float: right;
-	text-align: center;
+	position: absolute;
+	top: 30px;
+	right: -50px;
   border-radius: 100%;
-  background-color: gray;
+  background-color: #CECFD5;
   height: 200px;
   width: 200px;
+}
+
+.circle-text {
+	text-align: center;
+	padding-top: 55px;
+	font-size: 90px;
+	color: #FFF;
 }
 
 .page-title {
