@@ -47,6 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+/*************************
+Page styling
+*************************/
+body {
+  font-family: sans-serif;
+}
+
 /***************************
 Div styling
 ***************************/
@@ -54,7 +61,6 @@ Div styling
 .main-page {
 	background-color: white;
 	width: 800px;
-	height: 800px;
 	padding: 45px;
 }
 
@@ -62,7 +68,6 @@ Div styling
   border: solid 2px #CECFD5;
   background-color: white;
   width: 525px;
-  height: 600px;
   border-radius: 15px;
   position: relative;
 }
@@ -70,7 +75,7 @@ Div styling
 .property-list {
 	color: #CECFD5;
   font-size: 30px;
-  padding: 60px;
+	padding-left: 80px;
   list-style-type: square;
 }
 
@@ -88,40 +93,38 @@ Div styling
 
 .circle-object {
 	position: absolute;
-	top: 30px;
+	top: 80px;
 	right: -50px;
   border-radius: 100%;
   background-color: #CECFD5;
-  height: 200px;
-  width: 200px;
+  height: 175px;
+  width: 175px;
 }
 
 .circle-text {
 	text-align: center;
 	padding-top: 55px;
-	font-size: 90px;
+	font-size: 70px;
 	color: #FFF;
 }
 
 .page-title {
+	padding-top: 70px;
+	padding-left: 50px;
 	font-size: 35px;
 	font-weight: bold;
 	color: #2CB249;
 }
 
 .sub-heading {
+	padding-top: 70px;
+	padding-left: 50px;
 	font-size: 35px;
 	font-weight: bold;
 	color: #9799A7;
 }
 
-/*************************
-Page styling
-*************************/
-body {
-  font-family: sans-serif;
-}
-
-h1 {
-
+.logo-list {
+	padding-left: 50px;
+	padding-bottom: 30px;
 }
